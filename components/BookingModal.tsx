@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ClipboardIcon, WhatsAppIcon, XIcon } from './icons';
+import { ClipboardIcon, WhatsAppIcon, XIcon } from './icons.tsx';
 
 interface BookingModalProps {
   isOpen: boolean;

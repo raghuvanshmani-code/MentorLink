@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import type { Session } from '../types';
-import { getMySessions } from '../services/api';
-import { useAuth } from '../hooks/useAuth';
-import SessionListItem from '../components/SessionListItem';
-import Spinner from '../components/Spinner';
+import type { Session } from '../types.ts';
+import { getMySessions } from '../services/api.ts';
+import { useAuth } from '../hooks/useAuth.ts';
+import SessionListItem from '../components/SessionListItem.tsx';
+import Spinner from '../components/Spinner.tsx';
 
 const MySessionsPage: React.FC = () => {
     const [sessions, setSessions] = useState<Session[]>([]);

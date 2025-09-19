@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { useAuth } from '../hooks/useAuth';
-import { LogoIcon } from './icons';
+import { useAuth } from '../hooks/useAuth.ts';
+import { LogoIcon } from './icons.tsx';
 
 const Header: React.FC = () => {
   const { isAuthenticated, user, login, logout } = useAuth();

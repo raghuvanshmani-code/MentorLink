@@ -1,12 +1,12 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { getSessionById, rateSession } from '../services/api';
-import { useAuth } from '../hooks/useAuth';
-import type { Session } from '../types';
-import { SessionStatus } from '../types';
-import StarRating from '../components/StarRating';
-import Spinner from '../components/Spinner';
+import { getSessionById, rateSession } from '../services/api.ts';
+import { useAuth } from '../hooks/useAuth.ts';
+import type { Session } from '../types.ts';
+import { SessionStatus } from '../types.ts';
+import StarRating from '../components/StarRating.tsx';
+import Spinner from '../components/Spinner.tsx';
 
 const RateSessionPage: React.FC = () => {
   const { sessionId } = useParams<{ sessionId: string }>();

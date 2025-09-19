@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { StarIcon as StarIconSolid } from './icons';
+import { StarIcon as StarIconSolid } from './icons.tsx';
 
 interface StarRatingProps {
   rating: number;

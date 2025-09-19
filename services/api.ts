@@ -1,6 +1,6 @@
 
-import type { Mentor, Session, Rating } from '../types';
-import { SessionStatus } from '../types';
+import type { Mentor, Session, Rating } from '../types.ts';
+import { SessionStatus } from '../types.ts';
 
 // --- MOCK DATABASE ---
 

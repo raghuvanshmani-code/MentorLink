@@ -1,11 +1,11 @@
 
 import React from 'react';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import { AuthProvider } from './context/AuthContext';
-import Header from './components/Header';
-import HomePage from './pages/HomePage';
-import MySessionsPage from './pages/MySessionsPage';
-import RateSessionPage from './pages/RateSessionPage';
+import { AuthProvider } from './context/AuthContext.tsx';
+import Header from './components/Header.tsx';
+import HomePage from './pages/HomePage.tsx';
+import MySessionsPage from './pages/MySessionsPage.tsx';
+import RateSessionPage from './pages/RateSessionPage.tsx';
 
 function App() {
   return (

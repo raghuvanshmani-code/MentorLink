@@ -1,7 +1,7 @@
 
 import React from 'react';
-import type { Mentor } from '../types';
-import StarRating from './StarRating';
+import type { Mentor } from '../types.ts';
+import StarRating from './StarRating.tsx';
 
 interface MentorCardProps {
   mentor: Mentor;

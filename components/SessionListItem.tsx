@@ -1,9 +1,9 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import type { Session } from '../types';
-import { SessionStatus } from '../types';
-import StarRating from './StarRating';
+import type { Session } from '../types.ts';
+import { SessionStatus } from '../types.ts';
+import StarRating from './StarRating.tsx';
 
 interface SessionListItemProps {
     session: Session;

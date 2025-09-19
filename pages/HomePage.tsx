@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
-import type { Mentor } from '../types';
-import { getMentors, createSession } from '../services/api';
-import { useAuth } from '../hooks/useAuth';
-import MentorCard from '../components/MentorCard';
-import BookingModal from '../components/BookingModal';
-import Spinner from '../components/Spinner';
+import type { Mentor } from '../types.ts';
+import { getMentors, createSession } from '../services/api.ts';
+import { useAuth } from '../hooks/useAuth.ts';
+import MentorCard from '../components/MentorCard.tsx';
+import BookingModal from '../components/BookingModal.tsx';
+import Spinner from '../components/Spinner.tsx';
 
 const HomePage: React.FC = () => {
   const [mentors, setMentors] = useState<Mentor[]>([]);
